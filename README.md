@@ -37,7 +37,7 @@ This repo provides the ETL pipeline, to populate the sparkifydb database in AWS 
 
 * etl.py is the python script that loads data into staging tables, then load data into fact and dimension tables from staging tables
 
-* redshift_cluster_setup.py sets up the redshift cluster and creates an IAM role for redshift to access other AWS services
+* redshift_cluster_setup.py sets up the redshift cluster and creates an IAM role for redshift to access other AWS services.. ran this to fill in the 'dwh.cfg' file..
 
 * redshift_cluster_teardown.py removes the redshift cluster and IAM role created
 
